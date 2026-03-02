@@ -1,0 +1,1 @@
+paramiko>=3.4,<4.0  # SSH подключение (4.x имеет баг с banner на OpenSSH 9.6)

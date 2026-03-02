@@ -1,0 +1,5 @@
+@echo off
+cd /d "%~dp0"
+py -m pip install -r requirements.txt -q
+py setup_ssh.py
+pause
